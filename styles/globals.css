@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 html,
 body {
   padding: 0;
@@ -13,4 +16,23 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.sdp {
+  box-shadow: none !important;
+  --theme-color: rgba(147, 196, 253, 0.339) !important;
+  --selected-date-color: rgb(59 130 246) !important;
+  --font: "Kollektif", sans-serif !important;
+}
+
+.sdp--month-picker .sdp--square-btn {
+  background-color: #dbeafe !important;
+}
+.sdp--month-picker svg {
+}
+.sdp--month-picker polyline {
+  stroke: rgb(147 197 253) !important;
+}
+.sdp--month-picker svg {
+  width: 12px !important;
 }
